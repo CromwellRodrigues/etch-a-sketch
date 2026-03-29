@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Etch-A-Sketch</title>
+</head>
+<body>
+    <div id="page"
+        class="min-h-screen bg-gradient-to-br from-fuchsia-200 via-fuchsia-300 to-fuchsia-200 flex justify-center"
+    >
+
+        <div id="page-content" class="flex flex-col align-center"> 
+            <h1 class="text-3xl justify-content text-fuchsia-700 mt-10 uppercase font-bold">
+                Etch-A-Sketch
+            </h1>
+
+            <div>
+                <button id="resize"
+                class="bg-gradient-to-br from-fuchsia-700 via-fuchsia-800 to-fuchsia-700 text-white px-4 py-2 rounded mt-5 hover:bg-gradient-to-br hover:from-fuchsia-800 hover:via-fuchsia-900 hover:to-fuchsia-800 transition duration-300">
+                    Resize Grid
+                </button>
+            </div>
+
+            <div id="container"
+            class="flex flex-wrap justify-center items-center mt-10">
+
+            </div>
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
